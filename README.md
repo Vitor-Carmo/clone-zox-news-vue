@@ -1,4 +1,4 @@
-# o-novo-nuxt
+# clone-zox-news-vue
 
 ## Build Setup
 
