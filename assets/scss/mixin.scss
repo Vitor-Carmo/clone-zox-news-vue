@@ -1,0 +1,10 @@
+@mixin title-font($color: #222, $size: 1.1em) {
+  font: {
+    family: "Oswald", sans-serif;
+    size: $size;
+    weight: 700;
+  }
+  color: $color;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}

@@ -1,0 +1,31 @@
+%container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  @media screen and (max-width: 600px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 479px) {
+    padding: 0 10px;
+  }
+}
+
+%link-but {
+  @include title-font($color: $color--black, $size: 0.8rem);
+  display: inline-block;
+  background: $color--white;
+  border: 1px solid $color--black;
+  border-radius: 3px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  width: 50%;
+  text-align: center;
+  transition: 0.25s;
+
+  &:hover {
+    background: $color--black;
+    color: $color--white;
+  }
+}
