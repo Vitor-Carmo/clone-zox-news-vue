@@ -9,7 +9,7 @@
 
 **A modern news portal clone built with Vue.js and Nuxt.js, showcasing dynamic content and responsive design.**
 
-<!-- [Live Demo](https://zoxnews-vue-clone.netlify.app/)  TODO: Add live demo link after deployment -->
+[Live Demo](https://zoxnews-vue-clone.netlify.app/)
 
 </div>
 
