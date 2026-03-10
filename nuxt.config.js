@@ -1,5 +1,15 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: "static",
+
+  router: {
+    base: "/clone-zox-news-vue/"
+  },
+
+  generate: {
+    fallback: true
+  },
+
   head: {
     title: "o-novo-nuxt",
     htmlAttrs: {
@@ -57,11 +67,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxtjs/style-resources"],
-  
+
   server: {
     port: 4500,
   },
-  
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 };
